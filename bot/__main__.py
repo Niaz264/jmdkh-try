@@ -66,7 +66,7 @@ async def stats(client, message):
             f'<b><u>SYSTEM INFO</u></b>\n\n'\
             f'<b>• CPU Usage:</b> {cpuUsage}%\n'\
             f'<b>• RAM Usage:</b> {mem_p}%\n'\
-            f'<b>• Disk Usage:</b> {disk}%\n'\
+            f'<b>• Disk Usage:</b> {disk}%\n
             f'<b>• Free Disk Space:</b> {get_readable_file_size(free)}\n'\
             f'<b>• Total Disk Space:</b> {get_readable_file_size(total)}\n'
     await sendMessage(message, stats)
@@ -77,7 +77,7 @@ async def start(client, message):
                     'Now I will send your files or links here.\n'
     else:
         start_string = 'Welcome!\n' \
-                    'This bot can Mirror all your links To Google Drive!' \
+                    'John wick can Mirror all your links To Google Drive!' \
                     
     await sendMessage(message, start_string)
 
